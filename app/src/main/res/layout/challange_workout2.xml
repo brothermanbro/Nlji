@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="8.48dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21.4dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_back"
+        />
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:text="기간 설정"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="102.6dp"
+        android:layout_marginLeft="19dp"
+        android:textSize="29dp"
+        android:fontFamily="@font/neo_bold"
+        android:textColor="#191919"
+        android:includeFontPadding="false"
+        />
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="17dp"
+        android:text="이 챌린지는 언제까지 할거야?"
+        android:textColor="#191919"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150.5dp"
+        android:layout_marginLeft="19dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/neo_regular"
+        android:includeFontPadding="false"
+        />
+<Button
+    android:layout_width="322dp"
+    android:layout_height="46dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="231dp"
+    android:layout_marginLeft="19dp"
+    android:text="7일"
+    android:fontFamily="@font/neo_medium"
+    android:textSize="16dp"
+    android:background="@drawable/ic_nextbutton"
+    />
+
+    <Button
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="297.3dp"
+        android:layout_marginLeft="19dp"
+        android:text="14일"
+        android:fontFamily="@font/neo_medium"
+        android:textSize="16dp"
+        android:background="@drawable/ic_nextbutton"
+        />
+
+    <Button
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="363dp"
+        android:layout_marginLeft="19dp"
+        android:text="14일"
+        android:fontFamily="@font/neo_medium"
+        android:textSize="16dp"
+        android:background="@drawable/ic_checckedbutton1"
+
+        />
+
+<ImageView
+    android:layout_width="57.38dp"
+    android:layout_height="9.26dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="517dp"
+    android:layout_marginLeft="151dp"
+    android:background="@drawable/ic_dot1_2"
+    />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:text="다음"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/ic_success"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/neo_medium"
+        android:textSize="16dp"
+        />
+
+</RelativeLayout>

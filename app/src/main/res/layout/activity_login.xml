@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="11dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="19dp"
+        />
+
+    <Button
+        android:id="@+id/success"
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="416.5dp"
+        android:layout_marginLeft="19dp"
+        android:background="@drawable/ic_success"
+        android:text="완료"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/neo_medium"
+
+        />
+
+    <EditText
+        android:id="@+id/id_input"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:hint="아이디"
+        android:textColorHint="#999999"
+        android:textSize="16dp"
+        android:backgroundTint="#c5c5c5"
+        android:gravity="top"
+        android:fontFamily="@font/neo_regular"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"/>
+
+    <EditText
+        android:id="@+id/passward_input"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="334dp"
+        android:layout_marginLeft="19dp"
+        android:hint="비밀번호"
+        android:fontFamily="@font/neo_regular"
+        android:textColorHint="#999999"
+        android:textSize="16dp"
+        android:backgroundTint="#c5c5c5"
+        android:gravity="top"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"/>
+
+
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_login"/>
+
+    <TextView
+        android:layout_width="39dp"
+        android:layout_height="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="197dp"
+        android:layout_marginLeft="20dp"
+        android:text="아이디"
+        android:fontFamily="@font/neo_medium"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:textColor="#191919"
+        android:includeFontPadding="false"/>
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="298dp"
+        android:text="비밀번호"
+        android:fontFamily="@font/neo_medium"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:textColor="#191919"
+        android:includeFontPadding="false"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="10dp"
+        android:id="@+id/passward_forgat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/ic_forget_passward"
+        />
+</RelativeLayout>

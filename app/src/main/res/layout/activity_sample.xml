@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F4F4F4">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="252dp"
+                    android:background="#FFFFFF"
+                    android:id="@+id/record1">
+
+                    <Button
+                        android:layout_width="11dp"
+                        android:layout_height="19dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="19dp"
+                        android:background="@drawable/ic_back"
+                        />
+                    <Button
+                        android:layout_width="26dp"
+                        android:layout_height="33dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/ic_tip"
+                        />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="19dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="66dp"
+                        android:background="@drawable/ic_profile"/>
+                    <ImageView
+                        android:id="@+id/medal"
+                        android:layout_width="17dp"
+                        android:layout_height="26dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="121dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="@drawable/ic_gold"/>
+
+
+                    <ImageView
+                        android:id="@id/imagetext1"
+                        android:layout_width="322dp"
+                        android:layout_height="56.6dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="158dp"
+                        android:layout_marginLeft="19dp"
+                        android:background="@drawable/ic_rainbow"
+                        />
+                    <ImageView
+                        android:layout_width="15.18dp"
+                        android:layout_height="6.58dp"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignRight="@+id/imagetext1"
+                        android:layout_marginTop="27.6dp"
+                        android:layout_marginRight="235.6dp"
+                        android:background="@drawable/ic_cm"
+                        />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignRight="@+id/imagetext1"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="131.4dp"
+                        android:background="@drawable/ic_kg"
+                        />
+                    <ImageView
+                        android:layout_width="18.39dp"
+                        android:layout_height="8.39dp"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignRight="@+id/imagetext1"
+                        android:layout_marginTop="27dp"
+                        android:layout_marginRight="18dp"
+                        android:background="@drawable/ic_bmi"
+                        />
+                    <TextView
+                        android:id="@id/height"
+                        android:layout_width="40dp"
+                        android:layout_height="23dp"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignLeft="@+id/imagetext1"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="26dp"
+                        android:textSize="19dp"
+                        android:fontFamily="@font/neo_bold"
+                        android:text="184"
+                        android:textColor="#FFFFFF"
+                        />
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/weight"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignLeft="@+id/imagetext1"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="132dp"
+                        android:textSize="19dp"
+                        android:fontFamily="@font/neo_bold"
+                        android:text="79"
+                        android:textColor="#FFFFFF"/>
+
+                    <TextView
+                        android:layout_width="51dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/bmi"
+                        android:layout_alignTop="@+id/imagetext1"
+                        android:layout_alignLeft="@+id/imagetext1"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="228dp"
+                        android:textSize="19dp"
+                        android:fontFamily="@font/neo_bold"
+                        android:text="22.01"
+                        android:textColor="#FFFFFF"/>
+
+
+                    <TextView
+                        android:id="@+id/birth"
+                        android:layout_width="63dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="109dp"
+                        android:layout_marginTop="77dp"
+                        android:text="2010.03.11"
+                        android:textColor="#999999"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/neo_regular"/>
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="81dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="98dp"
+                        android:layout_marginLeft="108dp"
+                        android:text="백충원"
+                        android:textSize="29dp"
+                        android:fontFamily="@font/neo_bold"
+                        android:textColor="#191919"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="322dp"
+                    android:layout_height="241.6dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record1"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/shadow"
+                    android:id="@+id/record2"
+                    >
+                    <TextView
+                        android:layout_width="94dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="BMI"
+                        />
+                    <TextView
+                        android:id="@+id/height_graph_date"
+                        android:layout_width="130dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="120dp"
+                        android:text="2019.09.02. - 2020.06.03"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/neo_regular"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart1"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="302dp"
+                        android:layout_height="142dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="322dp"
+                    android:layout_height="241.6dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record2"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/shadow"
+                    android:id="@+id/record3"
+                    >
+                    <TextView
+                        android:layout_width="124dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="몸무게"
+                        />
+                    <TextView
+                        android:id="@+id/weight_graph_date"
+                        android:layout_width="130dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="150dp"
+                        android:text="2019.09.02. - 2020.06.03"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/neo_regular"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart2"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="302dp"
+                        android:layout_height="142dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="322dp"
+                    android:layout_height="241.6dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record3"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/shadow"
+                    android:id="@+id/record4"
+                    >
+                    <TextView
+                        android:layout_width="124dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="체지방률"
+                        />
+                    <TextView
+
+                        android:layout_width="130dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="150dp"
+                        android:text="2019.09.02. - 2020.06.03"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/neo_regular"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart3"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="302dp"
+                        android:layout_height="142dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="322dp"
+                    android:layout_height="241.6dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record4"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/shadow"
+                    android:id="@+id/record5"
+                    >
+                    <TextView
+                        android:layout_width="124dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="골력근량"
+                        />
+                    <TextView
+
+                        android:layout_width="130dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="150dp"
+                        android:text="2019.09.02. - 2020.06.03"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/neo_regular"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart4"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="302dp"
+                        android:layout_height="142dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="322dp"
+                    android:layout_height="241.6dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record5"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/shadow"
+                    android:id="@+id/record6"
+                    >
+                    <TextView
+                        android:layout_width="124dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="내장지방"
+                        />
+                    <TextView
+
+                        android:layout_width="130dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="150dp"
+                        android:text="2019.09.02. - 2020.06.03"
+                        android:textSize="11dp"
+                        android:fontFamily="@font/neo_regular"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart5"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="302dp"
+                        android:layout_height="142dp"
+                        />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="322dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/record6"
+                    android:layout_marginTop="9dp"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+

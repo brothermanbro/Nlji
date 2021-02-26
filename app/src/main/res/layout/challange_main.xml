@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:background="#FFFFFF"
+        android:id="@+id/record1">
+
+        <Button
+            android:layout_width="11dp"
+            android:layout_height="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="19dp"
+            android:background="@drawable/ic_back"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/ic_profile"/>
+        <ImageView
+            android:id="@+id/medal"
+            android:layout_width="17dp"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="121dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/ic_gold"/>
+
+
+
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignTop="@+id/imagetext1"
+            android:layout_alignRight="@+id/imagetext1"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="131.4dp"
+            android:background="@drawable/ic_kg"
+            />
+        <ImageView
+            android:layout_width="18.39dp"
+            android:layout_height="8.39dp"
+            android:layout_alignTop="@+id/imagetext1"
+            android:layout_alignRight="@+id/imagetext1"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/ic_bmi"
+            />
+
+
+        <TextView
+            android:id="@+id/birth"
+            android:layout_width="63dp"
+            android:layout_height="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="109dp"
+            android:layout_marginTop="77dp"
+            android:text="2010.03.11"
+            android:textColor="#999999"
+            android:textSize="12dp"
+            android:fontFamily="@font/neo_regular"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="98dp"
+            android:layout_marginLeft="108dp"
+            android:text="박서아"
+            android:textSize="29dp"
+            android:fontFamily="@font/neo_bold"
+            android:textColor="#191919"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

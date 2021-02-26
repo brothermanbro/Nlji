@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:layout_width="8.5dp"
+        android:layout_height="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_back"
+        />
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:text="챌린지 만들기"
+        android:textSize="28dp"
+        android:textColor="#191919"
+        android:fontFamily="@font/neo_bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="102dp"
+        />
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="17dp"
+        android:text="챌린지로 건강한 생활 습관을 길러보세요"
+        android:textSize="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginLeft="19dp"
+        android:textColor="#191919"
+        android:fontFamily="@font/neo_regular"
+        />
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/workout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/ic_workout"
+        />
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/sleep"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/ic_sleep"
+        />
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/eat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/ic_eat"
+        />
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/snack"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/ic_snack"
+        />
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/kind"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/ic_kind"
+        />
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="113dp"
+        android:id="@+id/etc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/ic_etc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="700dp"/>
+
+
+</RelativeLayout>

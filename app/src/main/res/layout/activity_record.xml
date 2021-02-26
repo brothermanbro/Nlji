@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:background="#FFFFFF"
+            android:id="@+id/record1">
+
+            <Button
+                android:layout_width="11dp"
+                android:layout_height="19dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="19dp"
+                android:background="@drawable/ic_back"
+                />
+            <Button
+                android:layout_width="26dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_tip"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="66dp"
+                android:background="@drawable/ic_profile"/>
+            <ImageView
+                android:id="@+id/medal"
+                android:layout_width="17dp"
+                android:layout_height="26dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="121dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/ic_gold"/>
+
+
+            <ImageView
+                android:id="@id/imagetext1"
+                android:layout_width="322dp"
+                android:layout_height="56.6dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="158dp"
+                android:layout_marginLeft="19dp"
+                android:background="@drawable/ic_rainbow"
+                />
+            <ImageView
+                android:layout_width="15.18dp"
+                android:layout_height="6.58dp"
+                android:layout_alignTop="@+id/imagetext1"
+                android:layout_alignRight="@+id/imagetext1"
+                android:layout_marginTop="27.6dp"
+                android:layout_marginRight="235.6dp"
+                android:background="@drawable/ic_cm"
+                />
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignTop="@+id/imagetext1"
+                android:layout_alignRight="@+id/imagetext1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="131.4dp"
+                android:background="@drawable/ic_kg"
+                />
+            <ImageView
+                android:layout_width="18.39dp"
+                android:layout_height="8.39dp"
+                android:layout_alignTop="@+id/imagetext1"
+                android:layout_alignRight="@+id/imagetext1"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/ic_bmi"
+                />
+
+            <TextView
+                android:id="@id/height"
+                android:layout_width="40dp"
+                android:layout_height="23dp"
+                android:layout_alignLeft="@+id/imagetext1"
+                android:layout_alignTop="@+id/imagetext1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/neo_bold"
+                android:text="92.5"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                android:includeFontPadding="false"/>
+
+            <TextView
+           android:layout_width="40dp"
+           android:layout_height="23dp"
+           android:id="@+id/weight"
+           android:layout_alignTop="@+id/imagetext1"
+           android:layout_alignLeft="@+id/imagetext1"
+           android:layout_marginTop="17dp"
+           android:layout_marginLeft="132dp"
+           android:textSize="19dp"
+           android:fontFamily="@font/neo_bold"
+           android:text="31.5"
+           android:textColor="#FFFFFF"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_height="23dp"
+                android:id="@+id/bmi"
+                android:layout_alignTop="@+id/imagetext1"
+                android:layout_alignLeft="@+id/imagetext1"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="228dp"
+                android:textSize="19dp"
+                android:fontFamily="@font/neo_bold"
+                android:text="18.01"
+                android:textColor="#FFFFFF"
+                android:includeFontPadding="false"/>
+            
+
+            <TextView
+                android:id="@+id/birth"
+                android:layout_width="63dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="109dp"
+                android:layout_marginTop="77dp"
+                android:text="2010.03.11"
+                android:textColor="#999999"
+                android:textSize="12dp"
+                android:fontFamily="@font/neo_regular"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="81dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="98dp"
+                android:layout_marginLeft="108dp"
+                android:text="박서아"
+                android:textSize="29dp"
+                android:fontFamily="@font/neo_bold"
+                android:textColor="#191919"
+                />
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="156dp"
+                android:layout_height="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="223dp"
+                android:layout_marginLeft="19dp"
+                android:text="서아의 예상 키는 165cm 입니다."
+                android:textSize="11dp"
+                android:textColor="#999999"
+                android:fontFamily="@font/neo_regular"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="322dp"
+            android:layout_height="241.6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/record1"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/shadow"
+            android:id="@+id/record2"
+            >
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_graph_title1"
+                />
+            <TextView
+                android:id="@+id/height_graph_date"
+                android:layout_width="130dp"
+                android:layout_height="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="120dp"
+                android:text="2019.09.02. - 2020.06.03"
+                android:textSize="11dp"
+                android:fontFamily="@font/neo_regular"
+                android:includeFontPadding="false"/>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="302dp"
+                android:layout_height="142dp"
+                />
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="13dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/ic_label1"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="322dp"
+            android:layout_height="241.6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/record2"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/shadow"
+            android:id="@+id/record3"
+            >
+            <ImageView
+                android:layout_width="124dp"
+                android:layout_height="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_graph_title2"
+                />
+            <TextView
+                android:id="@+id/weight_graph_date"
+                android:layout_width="130dp"
+                android:layout_height="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="150dp"
+                android:text="2019.09.02. - 2020.06.03"
+                android:textSize="11dp"
+                android:fontFamily="@font/neo_regular"
+                android:includeFontPadding="false"/>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="302dp"
+                android:layout_height="142dp"
+                />
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="13dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/ic_label2"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="322dp"
+            android:layout_height="271.6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/record3"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/shadow"
+            android:id="@+id/record4"
+            >
+            <ImageView
+                android:layout_width="124dp"
+                android:layout_height="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_timeline_title"
+                />
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="149dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="69dp"
+                android:background="@drawable/ic_orange_stick"/>
+            <ImageView
+                android:id="@+id/bubble1"
+                android:layout_width="83dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="63dp"
+                android:layout_marginLeft="31dp"
+                android:background="@drawable/ic_speech_bubble"/>
+
+
+            <TextView
+                android:id="@+id/bubble1_text"
+                android:layout_width="53dp"
+                android:layout_height="12dp"
+                android:layout_alignLeft="@+id/bubble1"
+                android:layout_alignTop="@+id/bubble1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="2020.05.09"
+                android:textColor="#999999"
+                android:textSize="10dp"
+                android:fontFamily="@font/neo_regular"
+                android:includeFontPadding="false"
+               />
+            <TextView
+                android:id="@+id/timeline_info1"
+                android:layout_width="207dp"
+                android:layout_height="17dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="87dp"
+                android:textSize="14dp"
+                android:textColor="#191919"
+                android:fontFamily="@font/neo_regular"
+                android:text="73.2cm  l  28.5kg  l  17.22BMI"
+                android:gravity="top"
+                android:includeFontPadding="false"
+                />
+            <ImageView
+                android:id="@+id/bubble2"
+                android:layout_width="83dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/timeline_info1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="29dp"
+                android:layout_marginLeft="31dp"
+                android:background="@drawable/ic_speech_bubble"/>
+            <TextView
+                android:id="@+id/bubble1_text2"
+                android:layout_width="53dp"
+                android:layout_height="12dp"
+                android:layout_alignLeft="@+id/bubble2"
+                android:layout_alignTop="@+id/bubble2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="2020.05.09"
+                android:textColor="#999999"
+                android:textSize="10dp"
+                android:fontFamily="@font/neo_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/timeline_info2"
+                android:layout_width="207dp"
+                android:layout_height="17dp"
+                android:layout_below="@+id/bubble2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:textColor="#191919"
+                android:fontFamily="@font/neo_regular"
+                android:text="73.2cm  l  28.5kg  l  17.22BMI"
+                android:gravity="top"
+                android:includeFontPadding="false"
+                />
+            <ImageView
+                android:id="@+id/bubble3"
+                android:layout_width="83dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/timeline_info2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="29dp"
+                android:layout_marginLeft="31dp"
+                android:background="@drawable/ic_speech_bubble"/>
+            <TextView
+                android:id="@+id/bubble1_text3"
+                android:layout_width="53dp"
+                android:layout_height="12dp"
+                android:layout_alignLeft="@+id/bubble3"
+                android:layout_alignTop="@+id/bubble3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="2020.05.09"
+                android:textColor="#999999"
+                android:textSize="10dp"
+                android:fontFamily="@font/neo_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/timeline_info3"
+                android:layout_width="207dp"
+                android:layout_height="17dp"
+                android:layout_below="@+id/bubble3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                android:textColor="#191919"
+                android:fontFamily="@font/neo_regular"
+                android:text="73.2cm  l  28.5kg  l  17.22BMI"
+                android:gravity="top"
+                android:includeFontPadding="false"
+                />
+            <Button
+                android:id="@+id/more"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/ic_more_button"
+                />
+            <Button
+                android:id="@+id/timeline_more1"
+                android:layout_width="8dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="77dp"
+                android:layout_marginRight="23dp"
+                android:background="@drawable/ic_timeline_orientation"
+                />
+            <Button
+                android:id="@+id/timeline_more2"
+                android:layout_width="8dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/timeline_more1"
+                android:layout_marginTop="57dp"
+                android:layout_marginRight="23dp"
+                android:background="@drawable/ic_timeline_orientation"
+                />
+            <Button
+                android:id="@+id/timeline_more3"
+                android:layout_width="8dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/timeline_more2"
+                android:layout_marginTop="57dp"
+                android:layout_marginRight="23dp"
+                android:background="@drawable/ic_timeline_orientation"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="322dp"
+            android:layout_height="216dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/record4"
+            android:layout_marginTop="9dp"
+            android:id="@+id/album1"
+            android:background="@drawable/image_background"/>
+        <TextView
+            android:id="@+id/imagetext1"
+            android:layout_width="92dp"
+            android:layout_height="17dp"
+            android:layout_alignLeft="@+id/album1"
+            android:layout_alignTop="@+id/album1"
+            android:layout_marginTop="186dp"
+            android:layout_marginLeft="14dp"
+            android:text="1년전 우리아이"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:fontFamily="@font/neo_bold"
+            android:includeFontPadding="false"/>
+
+
+        <ImageView
+            android:layout_width="322dp"
+            android:layout_height="216dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/album1"
+            android:layout_marginTop="9dp"
+            android:id="@+id/album2"
+            android:background="@drawable/image_background"
+            />
+
+        <TextView
+            android:id="@+id/imagetext2"
+            android:layout_width="92dp"
+            android:layout_height="17dp"
+            android:layout_alignLeft="@+id/album2"
+            android:layout_alignTop="@+id/album2"
+            android:layout_marginTop="186dp"
+            android:layout_marginLeft="14dp"
+            android:text="2년전 우리아이"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:fontFamily="@font/neo_bold"
+            android:includeFontPadding="false"
+            />
+
+        <ImageView
+            android:layout_width="322dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/album2"
+            android:layout_marginTop="9dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
+    
+
+
+
+</RelativeLayout>
+
